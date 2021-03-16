@@ -378,6 +378,34 @@ while chatting:
     
     else:
       print(f"[{botname}]: Sorry, I couldn't understand that. Try again!")
+
+  elif ci == 'tools' or ci == 'current tools' or ci == 'currenttools':
+    print(f"[{botname}]: These are the tools that I have currently:\n1. Roll Dice\n2. Spinner\n3. Calculator\n4. Flip a coin\nChoose the number corresponding to the option.")
+    formatcheck()
+    tools = input(':> ')
+    formatcheck()
+
+    if tools == '1':
+      pass
+    
+    elif tools == '2':
+      pass
+    
+    elif tools == '3':
+      pass
+    
+    elif tools == '4':
+      print(f"[{botname}]: Flipping coin...")
+      time.sleep(2)
+      formatcheck()
+      coin=random.randint(1,2)
+      if coin == 1:
+        print(f"[{botname}]: It landed on heads!")
+      else:
+        print(f"[{botname}]: It landed on tails!")
+    
+    else:
+      print(f"[{botname}]: Sorry, I couldn't understand that. Try again")
   
 
   #useless
