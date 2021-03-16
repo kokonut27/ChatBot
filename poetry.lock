@@ -1,0 +1,19 @@
+[[package]]
+category = "main"
+description = "A useful module for a random text, e-mails and lorem ipsum."
+name = "randomwords"
+optional = false
+python-versions = "*"
+version = "0.3.0"
+
+[package.extras]
+testing = ["pytest"]
+
+[metadata]
+content-hash = "805e4efb47680999ef459a97e49c9ccbb3b15c484d0a44df5d57c2d76f1b5637"
+python-versions = "^3.8"
+
+[metadata.files]
+randomwords = [
+    {file = "RandomWords-0.3.0.tar.gz", hash = "sha256:2a8c8d95bcea31a0da16a84911768f7d6fc0eba861264a72df83deddea0b9326"},
+]
