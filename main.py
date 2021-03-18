@@ -2,7 +2,7 @@ import time, os, sys, random
 import requests, json
 
 owner = os.environ['REPL_OWNER']
-botnames = ["Default","ChatBot",'PyBot']
+botnames = ["Default","ChatBot",'PyBot', f'{owner}Bot', 'MacBot', 'SuperBot', 'ConsoleBot', 'DarkBot', 'LightBot']
 botname = random.choice(botnames)
 
 def clear():
