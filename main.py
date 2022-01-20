@@ -13,8 +13,6 @@ Format=False
 def formatcheck():
   if Format == True:
     print()
-  else:
-    pass
 
 from pprint import pprint
 def weather_data(query):
@@ -230,11 +228,7 @@ while chatting:
             print()
           
           def isWin(correctletters, word):
-            for i in word:
-              if i not in correctletters:
-                return False
-                break
-            return True
+            return all(i in correctletters for i in word)
 
           while True:
             display(missedletters,correctletters,word)
